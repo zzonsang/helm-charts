@@ -1,19 +1,9 @@
 apiVersion: v1
 entries:
-  demo:
-  - apiVersion: v1
-    appVersion: "1.0"
-    created: 2019-08-27T10:50:03.490423999+09:00
-    description: A Helm chart for Kubernetes
-    digest: 378b782586e59bc6125a41b21d1fefcac143a0bb4a6b5c29b177642f535840a1
-    name: demo
-    urls:
-    - https://zzonsang.github.io/helm-charts/stable/demo-0.1.0.tgz
-    version: 0.1.0
   zcp-monitoring-remote:
   - apiVersion: v1
     appVersion: "1.0"
-    created: 2019-08-27T10:50:03.495864399+09:00
+    created: 2019-08-27T10:56:56.606474095+09:00
     description: A Helm chart for ZCP Remote Monitoring Stack
     digest: db7e29447b84f5b93a4ddb033fddcd122e1898a5b04b292e42d2142e51f14d26
     icon: https://upload.wikimedia.org/wikipedia/commons/b/b4/SK_logo.svg
@@ -31,4 +21,4 @@ entries:
     urls:
     - https://zzonsang.github.io/helm-charts/stable/zcp-monitoring-remote-1.0.3.tgz
     version: 1.0.3
-generated: 2019-08-27T10:50:03.489956464+09:00
+generated: 2019-08-27T10:56:56.600666272+09:00
