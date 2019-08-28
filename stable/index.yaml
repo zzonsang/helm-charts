@@ -2,18 +2,18 @@ apiVersion: v1
 entries:
   zcp-logging:
   - apiVersion: v1
-    created: 2019-08-28T16:23:00.858971335+09:00
+    created: 2019-08-28T17:51:59.329541157+09:00
     description: A Helm chart for ZCP-Logging
-    digest: ab033c3d13ef57df36c495f48179128da32136621df4c406d8b167b4703fc4ef
+    digest: 5208bceb915593bedd9268eb0d2ca97ba1415a173e21e59ca576fedbe46f1ea5
     icon: https://upload.wikimedia.org/wikipedia/commons/b/b4/SK_logo.svg
     name: zcp-logging
     urls:
-    - https://zzonsang.github.io/helm-charts/stable/zcp-logging-0.6.3.1.tgz
-    version: 0.6.3.1
+    - https://zzonsang.github.io/helm-charts/stable/zcp-logging-0.6.3.tgz
+    version: 0.6.3
   zcp-monitoring-remote:
   - apiVersion: v1
     appVersion: "1.0"
-    created: 2019-08-28T16:23:00.872218664+09:00
+    created: 2019-08-28T17:51:59.34173822+09:00
     description: A Helm chart for ZCP Remote Monitoring Stack
     digest: 9d90d8a10c1639c1a2bd37a4e476a36f92a2aecef1bbef8b52db91c29f26523a
     icon: https://upload.wikimedia.org/wikipedia/commons/b/b4/SK_logo.svg
@@ -32,7 +32,7 @@ entries:
     version: 1.0.11
   - apiVersion: v1
     appVersion: "1.0"
-    created: 2019-08-28T16:23:00.865871605+09:00
+    created: 2019-08-28T17:51:59.33623111+09:00
     description: A Helm chart for ZCP Remote Monitoring Stack
     digest: 24c7750a20c5b7df85b7a46c9185f1b16a78c12b9777ae9546323807a517335c
     icon: https://upload.wikimedia.org/wikipedia/commons/b/b4/SK_logo.svg
@@ -51,7 +51,7 @@ entries:
     version: 1.0.10
   - apiVersion: v1
     appVersion: "1.0"
-    created: 2019-08-28T16:23:00.878731474+09:00
+    created: 2019-08-28T17:51:59.346817252+09:00
     description: A Helm chart for ZCP Remote Monitoring Stack
     digest: 28c513a148ed6dd31cab04339f2c05997cb77c5e7b3733ecac4ce072432fca12
     icon: https://upload.wikimedia.org/wikipedia/commons/b/b4/SK_logo.svg
@@ -68,4 +68,4 @@ entries:
     urls:
     - https://zzonsang.github.io/helm-charts/stable/zcp-monitoring-remote-1.0.9.tgz
     version: 1.0.9
-generated: 2019-08-28T16:23:00.857508698+09:00
+generated: 2019-08-28T17:51:59.32892735+09:00
