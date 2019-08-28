@@ -2,7 +2,7 @@ apiVersion: v1
 entries:
   zcp-logging:
   - apiVersion: v1
-    created: 2019-08-28T15:59:12.017416381+09:00
+    created: 2019-08-28T16:23:00.858971335+09:00
     description: A Helm chart for ZCP-Logging
     digest: ab033c3d13ef57df36c495f48179128da32136621df4c406d8b167b4703fc4ef
     icon: https://upload.wikimedia.org/wikipedia/commons/b/b4/SK_logo.svg
@@ -13,7 +13,26 @@ entries:
   zcp-monitoring-remote:
   - apiVersion: v1
     appVersion: "1.0"
-    created: 2019-08-28T15:59:12.023358895+09:00
+    created: 2019-08-28T16:23:00.872218664+09:00
+    description: A Helm chart for ZCP Remote Monitoring Stack
+    digest: 9d90d8a10c1639c1a2bd37a4e476a36f92a2aecef1bbef8b52db91c29f26523a
+    icon: https://upload.wikimedia.org/wikipedia/commons/b/b4/SK_logo.svg
+    keywords:
+    - zcp
+    - prometheus
+    - cloudz
+    - remote
+    kubeVersion: '>=1.9'
+    name: zcp-monitoring-remote
+    sources:
+    - https://github.com/cloudsvcdev/mcab/tree/master/monitoring/staging/helm/zcp-monitoring-remote
+    tillerVersion: '>=2.7.0'
+    urls:
+    - https://zzonsang.github.io/helm-charts/stable/zcp-monitoring-remote-1.0.11.tgz
+    version: 1.0.11
+  - apiVersion: v1
+    appVersion: "1.0"
+    created: 2019-08-28T16:23:00.865871605+09:00
     description: A Helm chart for ZCP Remote Monitoring Stack
     digest: 24c7750a20c5b7df85b7a46c9185f1b16a78c12b9777ae9546323807a517335c
     icon: https://upload.wikimedia.org/wikipedia/commons/b/b4/SK_logo.svg
@@ -32,7 +51,7 @@ entries:
     version: 1.0.10
   - apiVersion: v1
     appVersion: "1.0"
-    created: 2019-08-28T15:59:12.029011078+09:00
+    created: 2019-08-28T16:23:00.878731474+09:00
     description: A Helm chart for ZCP Remote Monitoring Stack
     digest: 28c513a148ed6dd31cab04339f2c05997cb77c5e7b3733ecac4ce072432fca12
     icon: https://upload.wikimedia.org/wikipedia/commons/b/b4/SK_logo.svg
@@ -49,4 +68,4 @@ entries:
     urls:
     - https://zzonsang.github.io/helm-charts/stable/zcp-monitoring-remote-1.0.9.tgz
     version: 1.0.9
-generated: 2019-08-28T15:59:12.016743928+09:00
+generated: 2019-08-28T16:23:00.857508698+09:00
