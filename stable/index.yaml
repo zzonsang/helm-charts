@@ -2,7 +2,7 @@ apiVersion: v1
 entries:
   zcp-logging:
   - apiVersion: v1
-    created: 2019-08-30T17:27:12.104429959+09:00
+    created: 2019-08-30T17:32:17.44193934+09:00
     description: A Helm chart for ZCP-Logging
     digest: 5208bceb915593bedd9268eb0d2ca97ba1415a173e21e59ca576fedbe46f1ea5
     icon: https://upload.wikimedia.org/wikipedia/commons/b/b4/SK_logo.svg
@@ -13,7 +13,26 @@ entries:
   zcp-monitoring-remote:
   - apiVersion: v1
     appVersion: "1.0"
-    created: 2019-08-30T17:27:12.119289344+09:00
+    created: 2019-08-30T17:32:17.463205626+09:00
+    description: A Helm chart for ZCP Remote Monitoring Stack
+    digest: f88695d7227644ea97c0d277ac52c9ac66ab7d131ea606bd4e912e58beeb82bd
+    icon: https://upload.wikimedia.org/wikipedia/commons/b/b4/SK_logo.svg
+    keywords:
+    - zcp
+    - prometheus
+    - cloudz
+    - remote
+    kubeVersion: '>=1.9'
+    name: zcp-monitoring-remote
+    sources:
+    - https://github.com/cloudsvcdev/mcab/tree/master/monitoring/staging/helm/zcp-monitoring-remote
+    tillerVersion: '>=2.7.0'
+    urls:
+    - https://zzonsang.github.io/helm-charts/stable/zcp-monitoring-remote-1.0.13.tgz
+    version: 1.0.13
+  - apiVersion: v1
+    appVersion: "1.0"
+    created: 2019-08-30T17:32:17.457741853+09:00
     description: A Helm chart for ZCP Remote Monitoring Stack
     digest: 978f78a713b6e66b6a5fb2bc6697aa38e4ec4d8f6f24a48d7170826cee364026
     icon: https://upload.wikimedia.org/wikipedia/commons/b/b4/SK_logo.svg
@@ -32,7 +51,7 @@ entries:
     version: 1.0.12
   - apiVersion: v1
     appVersion: "1.0"
-    created: 2019-08-30T17:27:12.114395128+09:00
+    created: 2019-08-30T17:32:17.452223257+09:00
     description: A Helm chart for ZCP Remote Monitoring Stack
     digest: 9d90d8a10c1639c1a2bd37a4e476a36f92a2aecef1bbef8b52db91c29f26523a
     icon: https://upload.wikimedia.org/wikipedia/commons/b/b4/SK_logo.svg
@@ -51,7 +70,7 @@ entries:
     version: 1.0.11
   - apiVersion: v1
     appVersion: "1.0"
-    created: 2019-08-30T17:27:12.109806358+09:00
+    created: 2019-08-30T17:32:17.447515247+09:00
     description: A Helm chart for ZCP Remote Monitoring Stack
     digest: 24c7750a20c5b7df85b7a46c9185f1b16a78c12b9777ae9546323807a517335c
     icon: https://upload.wikimedia.org/wikipedia/commons/b/b4/SK_logo.svg
@@ -70,7 +89,7 @@ entries:
     version: 1.0.10
   - apiVersion: v1
     appVersion: "1.0"
-    created: 2019-08-30T17:27:12.123882906+09:00
+    created: 2019-08-30T17:32:17.468370955+09:00
     description: A Helm chart for ZCP Remote Monitoring Stack
     digest: 28c513a148ed6dd31cab04339f2c05997cb77c5e7b3733ecac4ce072432fca12
     icon: https://upload.wikimedia.org/wikipedia/commons/b/b4/SK_logo.svg
@@ -90,7 +109,7 @@ entries:
   zcp-prometheus-operator:
   - apiVersion: v1
     appVersion: 0.31.1
-    created: 2019-08-30T17:27:12.141943894+09:00
+    created: 2019-08-30T17:32:17.486819057+09:00
     description: Provides easy monitoring definitions for Kubernetes services, and
       deployment and management of Prometheus instances.
     digest: 54e628b7664f873e5f1587ff97205ba8595d0883d3e7f99b4ecef80333ed7bc7
@@ -115,4 +134,4 @@ entries:
     urls:
     - https://zzonsang.github.io/helm-charts/stable/zcp-prometheus-operator-0.1.5.tgz
     version: 0.1.5
-generated: 2019-08-30T17:27:12.103808613+09:00
+generated: 2019-08-30T17:32:17.44122905+09:00
